@@ -1,0 +1,109 @@
+[19.946336746] 2018-12-31 15:33:19,013 - INFO - launcher: Starting sanity checks
+[20.943403244] 2018-12-31 15:33:19,014 - INFO - launcher: Checking for Python 3.5+
+[20.943403244] 2018-12-31 15:33:19,014 - INFO - launcher: Checking console encoding
+[20.943403244] 2018-12-31 15:33:19,014 - INFO - launcher: Setting console encoding to UTF-8
+[20.943403244] 2018-12-31 15:33:19,014 - INFO - launcher: Ensuring we're in the right environment
+[21.965026855] 2018-12-31 15:33:19,015 - INFO - launcher: Adding local bins/ folder to path
+[21.965026855] 2018-12-31 15:33:19,015 - INFO - launcher: Required checks passed.
+[22.962093353] 2018-12-31 15:33:19,016 - INFO - launcher: Optional checks passed.
+[22.962093353] 2018-12-31 15:33:19,016 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.6472928524017334] 2018-12-31 15:33:19,640 - WARNING - musicbot.config | In config.py::MainThread(6232), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.6472928524017334] 2018-12-31 15:33:19,640 - INFO - musicbot.config | In config.py::MainThread(6232), line 123 in run_checks: Using i18n: config/i18n/en.json
+[0.6492640972137451] 2018-12-31 15:33:19,642 - DEBUG - musicbot.json | In json.py::MainThread(6232), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.8148481845855713] 2018-12-31 15:33:19,808 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 227 in _setup_logging: Set logging level to INFO
+[0.8148481845855713] 2018-12-31 15:33:19,808 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 84 in __init__: Starting MusicBot 1.9.7
+[0.8158171176910400] 2018-12-31 15:33:19,809 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[8.5460891723632812] 2018-12-31 15:33:27,539 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 1074 in on_ready: Connection established, ready to go.
+[8.5460891723632812] 2018-12-31 15:33:27,539 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 339 in _cache_app_info: Caching app info
+[8.8039929866790771] 2018-12-31 15:33:27,797 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 905 in _scheck_server_permissions: Checking server permissions
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 913 in _scheck_configs: Validating config
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.config | In config.py::MainThread(6232), line 212 in async_validate: Validating options...
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 916 in _scheck_configs: Validating permissions config
+[8.8049216270446777] 2018-12-31 15:33:27,798 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6232), line 64 in async_validate: Validating permissions...
+[8.8049216270446777] 2018-12-31 15:33:27,798 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1091 in on_ready: Connected: 528812717444956161/Kpop Paradise Music#1136
+[8.8059196472167969] 2018-12-31 15:33:27,799 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1099 in on_ready: Owner:     270155491340976128/Akira#0962
+
+[8.8059196472167969] 2018-12-31 15:33:27,799 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1102 in on_ready: Server List:
+[8.8069164752960205] 2018-12-31 15:33:27,800 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1105 in on_ready:  - cube nz
+[8.8069164752960205] 2018-12-31 15:33:27,800 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1105 in on_ready:  - Kpop Paradise
+[8.8069164752960205] 2018-12-31 15:33:27,800 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1151 in on_ready: Not bound to any text channels
+[8.8079135417938232] 2018-12-31 15:33:27,801 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 1167 in on_ready: Not autojoining any voice channels
+[31.8454098701477051] 2018-12-31 15:33:50,838 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2733 in on_message: 270155491340976128/Akira#0962: +play Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]
+[31.8463623523712158] 2018-12-31 15:33:50,839 - ERROR - musicbot.bot | In bot.py::MainThread(6232), line 2862 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use +summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\Amon mohamed\Desktop\kk\musicbot\MusicBot\musicbot\bot.py", line 2761, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\Amon mohamed\Desktop\kk\musicbot\MusicBot\musicbot\bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use +summon to summon it to your voice channel.
+[39.0063600540161133] 2018-12-31 15:33:57,999 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2733 in on_message: 270155491340976128/Akira#0962: +summon
+[39.0063600540161133] 2018-12-31 15:33:57,999 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2018 in cmd_summon: Joining Kpop Paradise/🎧 Voice「 1 」
+[39.0073809623718262] 2018-12-31 15:33:58,000 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 452 in get_voice_client: Connection attempt 1 to 🎧 Voice「 1 」
+[39.0073809623718262] 2018-12-31 15:33:58,000 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[39.0073809623718262] 2018-12-31 15:33:58,000 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[39.0083587169647217] 2018-12-31 15:33:58,001 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[39.2447624206542969] 2018-12-31 15:33:58,238 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 528812717444956161/Kpop Paradise Music#1136 on Kpop Paradise/🎧 Voice「 1 」 -> [JOIN, CONNECT]
+[39.2447624206542969] 2018-12-31 15:33:58,238 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2948 in on_voice_state_update: 528812717444956161/Kpop Paradise Music#1136 has joined Kpop Paradise/🎧 Voice「 1 」
+[39.2457585334777832] 2018-12-31 15:33:58,239 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[39.3076148033142090] 2018-12-31 15:33:58,301 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[40.5281999111175537] 2018-12-31 15:33:59,521 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[40.5281999111175537] 2018-12-31 15:33:59,521 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 478 in get_voice_client: Connected in 1.5s
+[40.5281999111175537] 2018-12-31 15:33:59,521 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 479 in get_voice_client: Connected to Kpop Paradise/🎧 Voice「 1 」
+[40.5291957855224609] 2018-12-31 15:33:59,522 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 849 in deserialize_queue: Deserializing queue for 431677212077457409
+[40.6169681549072266] 2018-12-31 15:33:59,610 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 570 in get_player: Created player via deserialization for server 431677212077457409 with 0 entries
+[40.6179673671722412] 2018-12-31 15:33:59,611 - VOICEDEBUG - musicbot.player | In player.py::MainThread(6232), line 373 in websocket_check: Starting websocket check loop for Kpop Paradise
+[44.4501812458038330] 2018-12-31 15:34:03,443 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2733 in on_message: 270155491340976128/Akira#0962: +play Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]
+[45.0542535781860352] 2018-12-31 15:34:04,047 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 1516 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'webpage_url_basename': 'Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'extractor_key': 'Generic'}
+[51.8731245994567871] 2018-12-31 15:34:10,866 - DEBUG - musicbot.entry | In entry.py::MainThread(6232), line 54 in get_ready_future: Created future for None
+[51.8740985393524170] 2018-12-31 15:34:10,867 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[51.8750979900360107] 2018-12-31 15:34:10,868 - INFO - musicbot.entry | In entry.py::MainThread(6232), line 196 in _download: Download cached: https://www.youtube.com/watch?v=1hGYZTT8AE0
+[53.8674073219299316] 2018-12-31 15:34:12,860 - DEBUG - musicbot.entry | In entry.py::MainThread(6232), line 54 in get_ready_future: Created future for audio_cache\youtube-1hGYZTT8AE0-Bridgit_Mendler_-_Atlantis_feat._Kaiydo_demo_taped_Remix_Audio.webm
+[53.8674073219299316] 2018-12-31 15:34:12,860 - FFMPEG - musicbot.player | In player.py::MainThread(6232), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-1hGYZTT8AE0-Bridgit_Mendler_-_Atlantis_feat._Kaiydo_demo_taped_Remix_Audio.webm
+[53.8693320751190186] 2018-12-31 15:34:12,862 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[53.8703293800354004] 2018-12-31 15:34:12,863 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 868 in write_current_song: Writing current song for 431677212077457409
+[281.4797046184539795] 2018-12-31 15:38:00,473 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 270155491340976128/Akira#0962 on Kpop Paradise/🎧 Voice「 1 」 -> [MUTE, DEAFEN]
+[294.3103547096252441] 2018-12-31 15:38:13,303 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[715.7993066310882568] 2018-12-31 15:45:14,792 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 1 」 -> [JOIN, CONNECT]
+[715.8002631664276123] 2018-12-31 15:45:14,793 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2948 in on_voice_state_update: 221791369440526337/Victon#9680 has joined Kpop Paradise/🎧 Voice「 1 」
+[719.3241863250732422] 2018-12-31 15:45:18,317 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 1 」 -> [MUTE]
+[727.8960046768188477] 2018-12-31 15:45:26,889 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 3 」 -> [LEAVE, MOVE]
+[727.8960046768188477] 2018-12-31 15:45:26,889 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2948 in on_voice_state_update: 221791369440526337/Victon#9680 has left Kpop Paradise/🎧 Voice「 1 」
+[731.3952097892761230] 2018-12-31 15:45:30,388 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2733 in on_message: 270155491340976128/Akira#0962: +play Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]
+[731.7935338020324707] 2018-12-31 15:45:30,786 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 1516 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'webpage_url_basename': 'Bridgit Mendler - Atlantis feat. Kaiydo (demo taped Remix) [Audio]', 'extractor_key': 'Generic'}
+[738.4900710582733154] 2018-12-31 15:45:37,483 - DEBUG - musicbot.entry | In entry.py::MainThread(6232), line 54 in get_ready_future: Created future for None
+[738.4910700321197510] 2018-12-31 15:45:37,484 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[738.4920670986175537] 2018-12-31 15:45:37,485 - INFO - musicbot.entry | In entry.py::MainThread(6232), line 196 in _download: Download cached: https://www.youtube.com/watch?v=1hGYZTT8AE0
+[740.4931180477142334] 2018-12-31 15:45:39,486 - DEBUG - musicbot.entry | In entry.py::MainThread(6232), line 54 in get_ready_future: Created future for audio_cache\youtube-1hGYZTT8AE0-Bridgit_Mendler_-_Atlantis_feat._Kaiydo_demo_taped_Remix_Audio.webm
+[740.4931180477142334] 2018-12-31 15:45:39,486 - FFMPEG - musicbot.player | In player.py::MainThread(6232), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-1hGYZTT8AE0-Bridgit_Mendler_-_Atlantis_feat._Kaiydo_demo_taped_Remix_Audio.webm
+[740.4951124191284180] 2018-12-31 15:45:39,488 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[740.4951124191284180] 2018-12-31 15:45:39,488 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 868 in write_current_song: Writing current song for 431677212077457409
+[741.3272027969360352] 2018-12-31 15:45:40,320 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 270155491340976128/Akira#0962 on Kpop Paradise/🎧 Voice「 1 」 -> [UNMUTE, UNDEAFEN]
+[745.3437929153442383] 2018-12-31 15:45:44,337 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 270155491340976128/Akira#0962 on Kpop Paradise/🎧 Voice「 1 」 -> [MUTE, DEAFEN]
+[822.0262055397033691] 2018-12-31 15:47:01,019 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎧 Voice「 4 」 -> [CONNECT]
+[834.6520607471466064] 2018-12-31 15:47:13,645 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎧 Voice「 4 」 -> [MUTE]
+[835.8221669197082520] 2018-12-31 15:47:14,815 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎧 Voice「 4 」 -> [UNMUTE]
+[838.5914340019226074] 2018-12-31 15:47:17,584 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎧 Voice「 4 」 -> [DISCONNECT]
+[844.4911441802978516] 2018-12-31 15:47:23,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎶 Music Radio -> [CONNECT, MUTE]
+[846.3618307113647461] 2018-12-31 15:47:25,355 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 124694744369463296/JooBee#5397 on Kpop Paradise/🎶 Music Radio -> [DISCONNECT]
+[980.9362397193908691] 2018-12-31 15:49:39,929 - DEBUG - musicbot.bot | In bot.py::MainThread(6232), line 825 in serialize_queue: Serializing queue for 431677212077457409
+[1240.2174491882324219] 2018-12-31 15:53:59,210 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 394653149547462656/STAN DAY6 | STAN SHINEE | 기범#0001 on Kpop Paradise/🎧 Voice「 3 」 -> [CONNECT]
+[1241.2994132041931152] 2018-12-31 15:54:00,292 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 394653149547462656/STAN DAY6 | STAN SHINEE | 기범#0001 on Kpop Paradise/🎧 Voice「 2 」 -> [MOVE]
+[1305.8443038463592529] 2018-12-31 15:55:04,837 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 289812502655795200/dabdab#0747 on Kpop Paradise/🎧 Voice「 3 」 -> [CONNECT, MUTE]
+[1307.2891554832458496] 2018-12-31 15:55:06,282 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 289812502655795200/dabdab#0747 on Kpop Paradise/🎧 Voice「 3 」 -> [DISCONNECT]
+[1324.5221886634826660] 2018-12-31 15:55:23,515 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 289812502655795200/dabdab#0747 on Kpop Paradise/🎧 Voice「 3 」 -> [CONNECT]
+[1325.6949267387390137] 2018-12-31 15:55:24,688 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 289812502655795200/dabdab#0747 on Kpop Paradise/🎧 Voice「 3 」 -> [DISCONNECT]
+[1409.4882893562316895] 2018-12-31 15:56:48,481 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 484068338985861141/dongaming#7093 on Kpop Paradise/🎧 Voice「 4 」 -> [MUTE]
+[1429.7881784439086914] 2018-12-31 15:57:08,781 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 1 」 -> [JOIN, MOVE]
+[1429.7881784439086914] 2018-12-31 15:57:08,781 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2948 in on_voice_state_update: 221791369440526337/Victon#9680 has joined Kpop Paradise/🎧 Voice「 1 」
+[1433.4030909538269043] 2018-12-31 15:57:12,396 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 484068338985861141/dongaming#7093 on Kpop Paradise/🎧 Voice「 4 」 -> [UNMUTE]
+[1459.9113426208496094] 2018-12-31 15:57:38,904 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 4 」 -> [LEAVE, MOVE]
+[1459.9122664928436279] 2018-12-31 15:57:38,905 - INFO - musicbot.bot | In bot.py::MainThread(6232), line 2948 in on_voice_state_update: 221791369440526337/Victon#9680 has left Kpop Paradise/🎧 Voice「 1 」
+[1461.6680164337158203] 2018-12-31 15:57:40,661 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 221791369440526337/Victon#9680 on Kpop Paradise/🎧 Voice「 3 」 -> [MOVE]
+[1669.0260424613952637] 2018-12-31 16:01:08,019 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 265210830390296577/Babby(JBug)#1892 on Kpop Paradise/🎧 Voice「 4 」 -> [CONNECT]
+[1688.8994019031524658] 2018-12-31 16:01:27,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 265210830390296577/Babby(JBug)#1892 on Kpop Paradise/🎧 Voice「 4 」 -> [DISCONNECT]
+[2031.2852880954742432] 2018-12-31 16:07:10,278 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6232), line 2937 in on_voice_state_update: Voice state update for 429629236198768640/Mughira#3222 on Kpop Paradise/🎶 Music Radio -> [CONNECT, MUTE]
